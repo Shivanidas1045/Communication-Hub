@@ -13,9 +13,11 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav mx-auto">
         <a class="nav-link active me-5" aria-current="page" href="/"> <span class='badge border fs-4'>Home</span></a>
-        <a class="nav-link" href="/event"><span class='badge border fs-4 me-5'>Event Listing</span></a>
+        <a class="nav-link" href="/event"> <span class='badge border fs-4 me-5'>Events</span></a>
+    
         <a class="nav-link" href="/about"><span class='badge border fs-4'>About</span></a>
-
+         
+        
       </div>
     </div>
   </div>
