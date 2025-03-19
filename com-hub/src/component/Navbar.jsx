@@ -16,7 +16,12 @@ const Navbar = () => {
         <a class="nav-link" href="/event"> <span class='badge border fs-4 me-5'>Events</span></a>
     
         <a class="nav-link" href="/about"><span class='badge border fs-4'>About</span></a>
-         
+        <div class="position-absolute top-0 end-0 mt-2 me-3">
+        <a class="navbar-link" href="/signup"><span class="badge bg-primary text-black me-1 p-3 mt-2 ">Sign</span><span class="badge bg-white text-black me-3 p-3">Up</span></a>
+        <a class="navbar-link" href="/login"><span class="badge bg-primary text-black me-1 p-3 mt-2 ">Log</span><span class="badge bg-white text-black p-3">In</span></a>
+</div>
+        
+
         
       </div>
     </div>
